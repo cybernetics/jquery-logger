@@ -9,6 +9,17 @@ Provides the ability to log messages for debugging.  Features includes:
 * Logger level, environment, user agent, and message matching filters
 * Global context to include with every exception report
 
+## Requirements
+
+* `jquery.logger` - Core logger API
+
+Optional:
+
+* `jquery.logger.window` - Track errors raised in `setTimeout` / `setInterval` calls
+* `jquery.logger.ajax` - Tracks errors in `$.ajax` calls
+* `jquery.logger.events` - Tracks errors in DOM events
+* `jquery.logger.airbrake` - Provides an integration for Airbrake
+
 ## Usage
 
 Configuration:
